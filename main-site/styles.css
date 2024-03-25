@@ -51,3 +51,12 @@ h1 {
     margin: 0px;
 }
 
+#middle-container {
+    display: block;
+    margin-top: 54px;
+    margin-left: 42px;
+}
+
+.website-list {
+    line-height: 4px;
+}
