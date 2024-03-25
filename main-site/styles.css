@@ -25,6 +25,7 @@ body {
     display: block;
     margin-top: 22px;
     margin-left: 42px;
+    margin-bottom: 42px;
 }
 
 .intro-paragraph {
@@ -51,6 +52,7 @@ h1 {
     margin: 0px;
 }
 
+
 #middle-container {
     display: block;
     margin-top: 54px;
@@ -60,3 +62,22 @@ h1 {
 .website-list {
     line-height: 4px;
 }
+
+#lower-container {
+    display: block;
+}
+
+#lower-container img {
+    max-width: 200px; /* Ensure the image does not exceed the container's width */
+    height: auto; /* Allow the image to scale proportionally */
+    margin-left: 42px;
+}
+
+#copyright {
+display: inline-block;
+background-color: #3d33ff;
+color: white;
+margin-top: 54px;
+margin-left: 42px;
+}
+
