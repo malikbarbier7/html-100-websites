@@ -12,10 +12,42 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: rgb(85, 84, 84);
+    color: rgb(74, 73, 73);
 }
 
 body {
     font-family: Arial, sans-serif;
-    color: grey;
+    color: rgb(74, 73, 73);
+    letter-spacing: 2px;
 }
+
+#top-container {
+    display: block;
+    margin-top: 22px;
+    margin-left: 42px;
+}
+
+.intro-paragraph {
+    margin-bottom: 7px;
+}
+
+
+h1 {
+    font-size: 90px;
+    color: #3d33ff;
+    margin: 0px;
+
+}
+
+.intro-paragraph {
+    font-size: 22px;
+    margin: 0px;
+}
+
+.blue-paragraph {
+    font-size: 36px;
+    color: #3d33ff;
+    font-weight: bold;
+    margin: 0px;
+}
+
