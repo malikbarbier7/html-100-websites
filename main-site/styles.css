@@ -1,0 +1,21 @@
+header {
+text-align: right;
+letter-spacing: 2px;
+word-spacing: 7px;
+border-bottom: 1px solid grey;
+}
+
+nav {
+    display: block;
+    margin: 7px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: grey;
+}
