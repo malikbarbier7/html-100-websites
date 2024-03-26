@@ -14,6 +14,18 @@
     font-style: normal;
 }
 
+.side-bar-insta p {
+    display: inline;
+    font-size: 20px;
+    font-family: "dapifer", serif;
+    font-weight: 300;
+    font-style: normal;
+    position: absolute;
+    margin-top: 0px;
+    right: 30px; /* This will position the element to the right */
+    
+}
+
 #restaurant-name {
     display: block;
     font-size: 54px;
@@ -25,4 +37,12 @@
     padd;
 
     
+}
+
+.top-container img {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: auto;
+    margin-top: 72px;
 }
