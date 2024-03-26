@@ -34,7 +34,6 @@
     font-style: normal;
     text-align: center;
     margin: -30px;
-    padd;
 
     
 }
@@ -91,4 +90,28 @@
     font-style: normal;
     text-align: center;
     font-weight: normal;
+}
+
+.allergenes {
+    font-family: "dapifer", serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    font-weight: lighter;
+    margin: 32px;
+    margin-bottom: 89px;
+}
+
+.bottom-image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.phone-number {
+    font-family: "dapifer", serif;
+    font-size:42px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 54px;
 }
