@@ -1,6 +1,7 @@
 .side-bar {
     display: flex;
     margin: 30px;
+    margin-bottom: 0px;
     }
 
 
@@ -13,10 +14,15 @@
     font-style: normal;
 }
 
-.restaurant-name {
-    display: inline;
-    font-size: 20px;
+#restaurant-name {
+    display: block;
+    font-size: 54px;
     font-family: "dapifer", serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
+    text-align: center;
+    margin: -30px;
+    padd;
+
+    
 }
