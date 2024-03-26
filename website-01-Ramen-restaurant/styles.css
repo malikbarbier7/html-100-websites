@@ -1,0 +1,22 @@
+.side-bar {
+    display: flex;
+    margin: 30px;
+    }
+
+
+.side-bar-menu p {
+    display: inline;
+    padding: 7px;
+    font-size: 20px;
+    font-family: "dapifer", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.restaurant-name {
+    display: inline;
+    font-size: 20px;
+    font-family: "dapifer", serif;
+    font-weight: 300;
+    font-style: normal;
+}
