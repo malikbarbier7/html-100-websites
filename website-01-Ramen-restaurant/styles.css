@@ -39,10 +39,56 @@
     
 }
 
-.top-container img {
+.top-image-container img {
     display: block;
     width: 250px;
     height: auto;
     margin: auto;
     margin-top: 72px;
+}
+
+.top-container-menu-title h2 {
+    display: block;
+    font-family: "dapifer", serif;
+    font-size: 42px;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+}
+
+.menu-container {
+    display: block;
+    margin: 0 500px;
+}
+
+.menu-container .title {
+    font-family: "dapifer", serif;
+    font-size: 35px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-container .plate {
+    font-family: "dapifer", serif;
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-container .ingredients {
+    font-family: "dapifer", serif;
+    font-size: 19px;
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
+}
+
+.menu-container .price {
+    font-family: "dapifer", serif;
+    font-size: 19px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
 }
