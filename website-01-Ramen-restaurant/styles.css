@@ -115,3 +115,17 @@
     font-weight: bold;
     margin: 54px;
 }
+
+.bottom-menu {
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.bottom-menu p {
+    margin: 0 10px; /* Add space between menu items */
+    font-family: "dapifer", serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+}
