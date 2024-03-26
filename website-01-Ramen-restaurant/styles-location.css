@@ -1,0 +1,106 @@
+.side-bar {
+    display: flex;
+    margin: 42px;
+    margin-bottom: 0px;
+    }
+
+
+.side-bar-menu a {
+    display: inline-block;
+    padding: 7px;
+    font-size: 20px;
+    font-family: "dapifer", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+}
+
+.side-bar-insta p {
+    display: inline;
+    font-size: 20px;
+    font-family: "dapifer", serif;
+    font-weight: 300;
+    font-style: normal;
+    position: absolute;
+    margin-top: 0px;
+    right: 30px; /* This will position the element to the right */
+    
+}
+
+#restaurant-name {
+    display: block;
+    font-size: 54px;
+    font-family: "dapifer", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: -30px;
+
+    
+}
+
+.top-image-container img {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: auto;
+    margin-top: 72px;
+}
+
+.address {
+    font-family: "dapifer", serif;
+    font-size:54px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 54px;
+}
+
+.phone-number {
+    font-family: "dapifer", serif;
+    font-size:54px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 54px;
+}
+
+.opening-hours {
+    font-family: "dapifer", serif;
+    font-size:89px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 54px;
+}
+
+.bottom-image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.bottom-menu {
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.bottom-menu a {
+    margin: 0 10px; /* Add space between menu items */
+    font-family: "dapifer", serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+}
+
+.copyright{
+    font-family: "dapifer", serif;
+    font-size:21px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    margin: 69px;
+}

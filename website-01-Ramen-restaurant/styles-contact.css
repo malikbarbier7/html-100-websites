@@ -45,3 +45,77 @@
     margin: auto;
     margin-top: 72px;
 }
+
+.phone-number {
+    font-family: "dapifer", serif;
+    font-size:42px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 74px;
+}
+
+.form {
+    font-size: 24px;
+    font-family: "dapifer", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;  
+}
+
+form label,
+form input,
+form textarea {
+    display: inline-flex; /* Display form elements as block elements */
+    margin: 10px auto; /* Add margin to center-align the form elements */
+    width: 30%; /* Set the width of the form elements */
+}
+
+.form p {
+    font-size: 21px;
+    font-family: "dapifer", serif;
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+input[type="submit"] {
+    font-family: "dapifer", serif;
+    padding: 10px 20px; /* Padding around the button text */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 28px; /* Font size */
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #e03232; /* Darker green color on hover */
+}
+
+
+.bottom-menu {
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-top: 42px;
+}
+
+.bottom-menu a {
+    margin: 0 10px; /* Add space between menu items */
+    font-family: "dapifer", serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+}
+
+.copyright{
+    font-family: "dapifer", serif;
+    font-size:21px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    margin: 69px;
+}

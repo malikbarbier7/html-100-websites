@@ -133,3 +133,12 @@
     text-decoration: none;
     color: inherit;
 }
+
+.copyright{
+    font-family: "dapifer", serif;
+    font-size:21px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    margin: 69px;
+}
