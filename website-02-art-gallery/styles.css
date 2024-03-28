@@ -1,0 +1,16 @@
+.top-menu {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.top-menu a {
+    border: 1px solid black;
+}
+
+.top-menu p {
+    border: 1px solid black;
+    text-align: center; /* Center the text horizontally */
+    font-size: 72px;
+}
