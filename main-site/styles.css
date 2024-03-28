@@ -52,7 +52,6 @@ h1 {
     margin: 0px;
 }
 
-
 #middle-container {
     display: block;
     margin-top: 54px;
@@ -81,3 +80,6 @@ margin-top: 54px;
 margin-left: 42px;
 }
 
+.website-list a{
+    text-decoration: none;
+}
