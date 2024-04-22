@@ -58,3 +58,13 @@ body {
     text-decoration: none;
 
   }
+
+
+  .cake-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cakes per line */
+    gap: 20px; /* Gap between cakes */
+  }
+  .cake {
+    text-align: center;
+  }
