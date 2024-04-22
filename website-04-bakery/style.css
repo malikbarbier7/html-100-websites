@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner {
+    font-family: "coranto-2", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    background-color: rgb(42, 128, 85);
+    height: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.header  {
+    font-family: "coranto-2", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 24px;
+  }
+  
+  .logo {
+    font-family: "coranto-2-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 89px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+
+  }
+  
+  a {
+    font-size: 22px;
+    font-family: "coranto-2", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: white;
+    color: black;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+
+  }
