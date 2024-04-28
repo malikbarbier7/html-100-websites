@@ -35,6 +35,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 89px;
+    padding-right: 72px;
   }
   
   ul {
@@ -45,6 +46,41 @@ body {
     gap: 12px;
 
   }
+
+  .menu {
+    text-align: center; /* Align the content of the menu div to the center */
+    margin: 40px;
+    font-family: "coranto-2", serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 21px;
+  }
+  
+  .menu ul {
+    display: inline-block; /* Display the list items as inline block elements */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .menu img {
+    display: none;
+    width: 300px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  .menu li {
+    position: relative; /* Needed for absolute positioning of the images */
+  }
+  
+  .menu li:hover img {
+    display: block;
+    position: absolute;
+    top: 100%; /* Position the image below the text */
+    left: 300%; /* Align the image horizontally centered */
+    transform: translateX(-50%); /* Center the image horizontally */
+    z-index: 1; /* Ensure image appears above other content */
+  }
+  
+
   
   a {
     font-size: 22px;
@@ -73,3 +109,46 @@ body {
     width: 300px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
   }
+
+
+  .copyright{
+    font-family: "coranto-2", serif;
+    font-size:21px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    margin: 200px;
+}
+
+
+.address {
+    font-family: "coranto-2", serif;
+    font-size:24px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 54px;
+}
+
+.phone-number {
+    font-family: "coranto-2", serif;
+    font-size:24px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 54px;
+}
+
+.opening-hours {
+    font-family: "coranto-2", serif;
+    font-size:24px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 54px;
+}
+
+.bottom-image img {
+    display: block;
+    margin: 0 auto;
+}
